@@ -1,0 +1,12 @@
+你好，
+
+这是项目自动发送的阶段通知。
+
+项目名称：{{PROJECT_NAME}}
+当前阶段：{{STAGE}}
+发送时间：{{TIMESTAMP}}
+
+更新摘要：
+{{SUMMARY}}
+
+此邮件由 `scripts/send-project-update.ps1` 自动生成。

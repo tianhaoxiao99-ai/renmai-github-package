@@ -1,0 +1,26 @@
+name: renmai
+description: 仁迈 - 桌面端聊天记录分析与送礼助手
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  file_picker: ^8.1.2
+  archive: ^3.6.1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true

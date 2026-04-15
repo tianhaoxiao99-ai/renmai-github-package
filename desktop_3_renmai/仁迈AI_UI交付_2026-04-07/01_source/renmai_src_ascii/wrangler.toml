@@ -1,0 +1,12 @@
+name = "renmai-web"
+compatibility_date = "2026-03-17"
+pages_build_output_dir = "."
+
+[ai]
+binding = "AI"
+
+[vars]
+RENMAI_TEXT_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast"
+RENMAI_VISION_MODEL = "@cf/meta/llama-3.2-11b-vision-instruct"
+RENMAI_GEO_LANG = "zh-CN"
+RENMAI_AUTO_ACCEPT_META_LICENSE = "false"
