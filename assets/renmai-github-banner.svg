@@ -1,0 +1,50 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1160" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F0"/>
+      <stop offset="0.52" stop-color="#FFFDFC"/>
+      <stop offset="1" stop-color="#FCECDD"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="102" x2="210" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B68"/>
+      <stop offset="1" stop-color="#D96B3E"/>
+    </linearGradient>
+    <filter id="shadow" x="60" y="10" width="1160" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#B06843" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="32" width="1120" height="320" rx="30" fill="url(#bg)"/>
+  </g>
+
+  <path d="M140 280C240 228 336 212 438 228C540 244 618 296 716 296C812 296 888 240 984 224C1054 212 1112 220 1160 242" stroke="#EFCFBC" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <path d="M146 108C246 132 322 160 420 154C520 148 606 92 708 92C806 92 888 136 990 148C1060 156 1116 146 1160 122" stroke="#F7E0D2" stroke-width="8" stroke-linecap="round" opacity="0.95"/>
+
+  <g transform="translate(170 98)">
+    <circle cx="40" cy="40" r="40" fill="#201916"/>
+    <circle cx="40" cy="40" r="39" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="40" cy="20" r="6" fill="#F09A67"/>
+    <circle cx="22" cy="35" r="6" fill="#F09A67"/>
+    <circle cx="58" cy="35" r="6" fill="#F09A67"/>
+    <circle cx="28" cy="57" r="6" fill="#F09A67"/>
+    <circle cx="52" cy="57" r="6" fill="#F09A67"/>
+    <path d="M40 26V36M28 41H52M31 52L37 46M49 52L43 46" stroke="#FFE4D3" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="288" y="164" fill="#1F1A17" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="-1.5">Renmai</text>
+  <text x="584" y="164" fill="#E17A48" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="-1.5">GitHub Package</text>
+  <text x="292" y="214" fill="#6C5143" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">Relationship Intelligence Workspace</text>
+  <text x="292" y="250" fill="#8B6A5B" font-family="Segoe UI, Arial, sans-serif" font-size="21">Desktop source  -  Windows executable  -  Web preview</text>
+
+  <g transform="translate(292 275)">
+    <rect x="0" y="0" width="166" height="38" rx="19" fill="#201916"/>
+    <text x="83" y="25" text-anchor="middle" fill="#FFF7F2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Flutter Source</text>
+
+    <rect x="180" y="0" width="188" height="38" rx="19" fill="#E17A48"/>
+    <text x="274" y="25" text-anchor="middle" fill="#FFF7F2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Windows Package</text>
+
+    <rect x="382" y="0" width="160" height="38" rx="19" fill="#FFF1E6" stroke="#EBC6AF"/>
+    <text x="462" y="25" text-anchor="middle" fill="#785849" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Web Preview</text>
+  </g>
+</svg>
